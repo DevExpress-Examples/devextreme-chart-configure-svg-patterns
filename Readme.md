@@ -5,6 +5,9 @@
 <!-- default badges end -->
 
 # Chart for DevExtreme - How to configure different svg patterns for appearance customization
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/577336959/)**
+<!-- run online end -->
 
 This example demonstrates how to configure different svg patterns to customize the Chart appearance:
 
