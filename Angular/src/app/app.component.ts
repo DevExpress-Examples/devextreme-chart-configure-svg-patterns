@@ -1,10 +1,5 @@
-import { Component, ViewChild } from "@angular/core";
-
-import {DxDataGridComponent, DxDataGridModule} from 'devextreme-angular';
-
+import { Component } from "@angular/core";
 import { Item, Service } from './app.service';
-import DevExpress from "devextreme";
-import dxDataGrid = DevExpress.ui.dxDataGrid;
 
 @Component({
   selector: "app-root",
@@ -21,12 +16,11 @@ export class AppComponent {
     this.chartAttributes = {
       class: "chart-class"
     };
-    this.customizePoint = this.customizePoint.bind(this);
   }
 
   customizePoint(info: any) {
     let style: any = {};
-    console.log(info)
+
     switch(info.argument) {
       case 'Monday':
         style.color = 'url(#Gradient1)'

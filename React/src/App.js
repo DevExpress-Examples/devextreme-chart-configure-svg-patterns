@@ -16,6 +16,7 @@ const chartAttributes = {
 export default function App() {
   const customizePoint = React.useCallback((info) => {
     const style = {};
+    
     switch(info.argument) {
       case 'Monday':
         style.color = 'url(#Gradient1)'
