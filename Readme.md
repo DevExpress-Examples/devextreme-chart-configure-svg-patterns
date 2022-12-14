@@ -19,6 +19,7 @@ If it's necessary to add a gradient pattern as a background color, pass it to th
 
 - **jQuery**
     - [src.js](jQuery/src/src.js)
+    - [index.html](jQuery/src/index.html)
 - **Angular**
     - [app.component.html](Angular/src/app/app.component.html)
     - [app.component.ts](Angular/src/app/app.component.ts)
