@@ -11,7 +11,8 @@
   "name": "dx-jquery",
   "scripts": {
     "start": "npm run lite",
-    "lite": "lite-server -c ./bs-config.json"
+    "lite": "lite-server -c ./bs-config.json",
+    "build": "npm run lint"
   },
   "version": "1.0.0"
 }
