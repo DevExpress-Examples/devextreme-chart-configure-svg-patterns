@@ -29,7 +29,7 @@ If it's necessary to add a gradient pattern as a background color, pass it to th
 - **React**
     - [App.js](React/src/App.js)
 - **NetCore**    
-    - [Index.cshtml](ASP/ASP/Pages/Index.cshtml)
+    - [Index.cshtml](ASP.NET%20Core/ASP/Pages/Index.cshtml)
 
 ## Documentation
 

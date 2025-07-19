@@ -304,8 +304,7 @@ TesterMetadata.xml
 # Backup files
 *.bak
 
+*/wwwroot/*
 
-
-.idea/vcs.xml
-.idea/workspace.xml
-jQuery/.idea/workspace.xml
+!*/wwwroot/css/Site.css
+*.DS_Store
