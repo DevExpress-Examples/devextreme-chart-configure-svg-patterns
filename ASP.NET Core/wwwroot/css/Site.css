@@ -1,7 +1,91 @@
+#chart {
+    height: 440px;
+    min-width: 1600px;
+}
+
+.svg-patterns {
+    position: absolute;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 .demo-container {
     margin: 50px;
     width: 90vw;
 }
-body {
-    margin: 8px;
+
+/* Chart specific styles */
+#chart {
+    height: 400px;
+    margin: 20px 0;
+}
+
+.chart-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+.chart-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* SVG Pattern styles */
+.dx-chart-series rect {
+    transition: opacity 0.3s ease;
+}
+
+.dx-chart-series rect:hover {
+    opacity: 0.8;
+}
+
+/* Custom styling for chart legend */
+.dx-chart-legend {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Chart export button styling */
+.dx-chart-export-menu {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* General layout styles */
+.navbar {
+    background-color: #343a40;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+}
+
+.main-content {
+    min-height: calc(100vh - 200px);
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #dee2e6;
 }
