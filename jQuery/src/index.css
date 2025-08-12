@@ -2,3 +2,12 @@
     margin: 50px;
     width: 90vw;
 }
+
+#chart {
+    height: 440px;
+    min-width: 1600px;
+}
+
+.svg-patterns {
+    position: absolute;
+}
