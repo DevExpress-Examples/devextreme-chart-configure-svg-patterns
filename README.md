@@ -9,33 +9,34 @@
 
 This example demonstrates how to customize the Chart appearance by configuring different SVG patterns:
 
-![img.png](img.png)
+![SVG Patterns Demo](images/svg_patterns.png)
 
-You can implement this functionality in various ways. For example, add the [customizePoint](https://js.devexpress.com/Documentation/22_1/ApiReference/UI_Components/dxChart/Configuration/#customizePoint) function and assign the pattern reference to the required point [color](https://js.devexpress.com/Documentation/22_1/ApiReference/UI_Components/dxChart/Configuration/series/point/#color).
+You can implement this functionality in various ways. For example, add the [customizePoint](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxChart/Configuration/#customizePoint) function and assign the pattern reference to the required point [color](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxChart/Configuration/series/point/#color).
 
 You can also add patterns directly to the Chart color options. For example, use the [series.color](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxChart/Configuration/series/#color) property.
   
-If it's necessary to add a gradient pattern as a background color, pass it to the [commonPaneSettings.backgroundColor](https://js.devexpress.com/Documentation/22_1/ApiReference/UI_Components/dxChart/Configuration/commonPaneSettings/#backgroundColor) property.
+If it's necessary to add a gradient pattern as a background color, pass it to the [commonPaneSettings.backgroundColor](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxChart/Configuration/commonPaneSettings/#backgroundColor) property.
 ## Files to Review
 
 - **jQuery**
-    - [src.js](jQuery/src/src.js)
+    - [index.js](jQuery/src/index.js)
     - [index.html](jQuery/src/index.html)
 - **Angular**
     - [app.component.html](Angular/src/app/app.component.html)
     - [app.component.ts](Angular/src/app/app.component.ts)
 - **Vue**
     - [App.vue](Vue/src/App.vue)
+    - [HomeContent.vue](Vue/src/components/HomeContent.vue)
 - **React**
-    - [App.js](React/src/App.js)
-- **NetCore**    
-    - [Index.cshtml](ASP.NET%20Core/ASP/Pages/Index.cshtml)
+    - [App.tsx](React/src/App.tsx)
+- **ASP.NET Core**    
+    - [Index.cshtml](ASP.NET%20Core/Views/Home/Index.cshtml)
 
 ## Documentation
 
-- [customizePoint()](https://js.devexpress.com/Documentation/22_1/ApiReference/UI_Components/dxChart/Configuration/#customizePoint)
-- [color](https://js.devexpress.com/Documentation/22_1/ApiReference/UI_Components/dxChart/Configuration/series/point/#color)
-- [backgroundColor](https://js.devexpress.com/Documentation/22_1/ApiReference/UI_Components/dxChart/Configuration/commonPaneSettings/#backgroundColor)
+- [customizePoint()](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxChart/Configuration/#customizePoint)
+- [color](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxChart/Configuration/series/point/#color)
+- [backgroundColor](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxChart/Configuration/commonPaneSettings/#backgroundColor)
 
 ## Demos
 
