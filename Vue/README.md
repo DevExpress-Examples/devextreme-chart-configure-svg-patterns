@@ -3,13 +3,12 @@
 This template should help get you started developing with Vue 3 in Vite and DevExtreme components.
 
 This project includes:
-- Vue 3.2.45
-- TypeScript 4.7.4
-- Vite for fast development and building
-- DevExtreme Vue 25.1.3
-- Vue Router 4.1.6
-- Vitest for testing
-- ESLint and Prettier for code quality
+* Vue 3.2.45
+* TypeScript 4.7.4
+* Vite for fast development and building
+* DevExtreme Vue 25.1.3
+* Vue Router 4.1.6
+* ESLint and Prettier for code quality
 
 ## Recommended IDE Setup
 
@@ -42,8 +41,8 @@ npm install
 **Source Files:**
 - `src/App.vue` - Main Vue application component with router
 - `src/main.ts` - Application entry point
-- `src/components/HomeContent.vue` - Example component with DevExtreme Button
-- `src/components/__tests__/` - Component tests
+- `src/components/HomeContent.vue` - Chart example using DevExtreme Chart and custom SVG patterns
+- `src/data.ts` - Data source used by the chart
 - `src/views/HomeView.vue` - Home page view
 - `src/router/index.ts` - Vue Router configuration
 - `src/assets/` - Static assets
@@ -52,7 +51,6 @@ npm install
 - `vite.config.ts` - Vite configuration with Vue and DevExtreme optimizations
 - `package.json` - Dependencies and scripts
 - `tsconfig.json` - TypeScript configuration
-- `tsconfig.vitest.json` - Vitest-specific TypeScript configuration
 
 ### Compile and Hot-Reload for Development
 
@@ -68,11 +66,6 @@ The application will be available at `http://localhost:5173/`
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
 
 ### Lint with [ESLint](https://eslint.org/)
 
