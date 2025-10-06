@@ -11,7 +11,7 @@ This example demonstrates how to customize the Chart appearance by configuring d
 
 ![SVG Patterns Demo](images/svg_patterns.png)
 
-You can implement this functionality in various ways. For example, add the [customizePoint](https://go.devexpress.com/DevExtreme_Documentation_dxDataGrid_onContextMenuPreparing.aspx) function and assign the pattern reference to the required point [color](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxChart/Configuration/series/point/#color).
+You can implement this functionality in various ways. For example, add the [customizePoint](https://go.devexpress.com/DevExtreme_Documentation_dxChart_customizePoint.aspx) function and assign the pattern reference to the required point [color](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxChart/Configuration/series/point/#color).
 
 You can also add patterns directly to the Chart color options. For example, use the [series.color](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxChart/Configuration/series/#color) property.
   
