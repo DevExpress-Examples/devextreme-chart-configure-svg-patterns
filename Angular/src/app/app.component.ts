@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
 import { Item, Service } from './app.service';
 import { PointInfo, PointConfiguration, ChartAttributes } from './chart.types';
+import { DxChartModule } from 'devextreme-angular/ui/chart';
 
 @Component({
   selector: 'app-root',
+  imports: [DxChartModule],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   providers: [Service],
