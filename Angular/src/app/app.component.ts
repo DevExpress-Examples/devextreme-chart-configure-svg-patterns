@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { Item, Service } from './app.service';
 import { PointInfo, PointConfiguration, ChartAttributes } from './chart.types';
 import { DxChartModule } from 'devextreme-angular/ui/chart';
@@ -8,6 +8,7 @@ import { DxChartModule } from 'devextreme-angular/ui/chart';
   imports: [DxChartModule],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
+  changeDetection: ChangeDetectionStrategy.Eager,
   providers: [Service],
 })
 export class AppComponent {
